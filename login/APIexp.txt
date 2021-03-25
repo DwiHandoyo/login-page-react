@@ -1,0 +1,4 @@
+
+curl -H "Content-type: application/json" -X POST http://localhost:5000/signUp -d '{"userEmail":"Aku","userPass":"Wiwok","firstName":"Dwi","lastName":"Handoyo","phoneNumber":"089507955201"}'
+
+curl -H "Content-type: application/json" -X POST http://localhost:5000/logIn -d '{"userEmail":"Aku","userPass":"Wiwok"}'
